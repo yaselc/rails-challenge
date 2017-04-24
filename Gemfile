@@ -33,8 +33,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # gem WebService clients
-gem 'webservice2_client', '~> 0.1.1', :path => 'webservice2-client/webservice2_client-0.1.1'
-gem 'webservice1_client', '~> 0.1.1', :path => 'webservice1-client/webservice1_client-0.1.1'
+gem 'webservice2_client', '~> 0.1.1', :path => 'webservice2-client/webservice2_client-0.1.1.gem'
+gem 'webservice1_client', '~> 0.1.1', :path => 'webservice1-client/webservice1_client-0.1.1.gem'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
