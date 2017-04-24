@@ -49,8 +49,6 @@ bower.json
 
 ### Ruby ###
 *.gem
-!webservice1_client-0.1.1.gem
-!webservice2_client-0.1.1.gem
 /.config
 /InstalledFiles
 /pkg/
