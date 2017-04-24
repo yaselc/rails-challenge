@@ -17,6 +17,8 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  username: <%= ENV['RAILSCHALLENGE_DATABASE_USER'] %>
+  password: <%= ENV['RAILSCHALLENGE_DATABASE_PASSWORD'] %>
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
@@ -81,5 +83,3 @@ test:
 production:
   <<: *default
   database: rails-challenge_production
-  username: rails-challenge
-  password: <%= ENV['RAILS-CHALLENGE_DATABASE_PASSWORD'] %>
