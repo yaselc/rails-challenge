@@ -41,4 +41,6 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   config.webservice2_url = 'http://localhost:3000'
+
+  config.webservice1_url = 'http://localhost:3000'
 end

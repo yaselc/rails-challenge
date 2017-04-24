@@ -53,4 +53,6 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   config.webservice2_url = 'http://localhost:3000'
+
+  config.webservice1_url = 'http://localhost:3000'
 end

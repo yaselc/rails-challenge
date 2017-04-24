@@ -26,7 +26,7 @@ $> cd rails-challenge
 $> cp example.env .env
 $> nano .env
 ```
-And set all environment variables
+and set all environment variables in .env file
 
 3. Create database, run migrations and load initial data
 
@@ -44,6 +44,12 @@ $> bin/rails server
 
 ## Running the tests
 
+Start server for test environment
+
+```
+$> bin/rails server -e test
+```
+In another terminal, run tests
 ```
 $> bin/rake
 ```
