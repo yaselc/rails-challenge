@@ -46,6 +46,7 @@ $> cd ..
 $> cd webservice2-client/
 $> gem build webservice2_client.gemspec
 $> gem install ./webservice2_client-0.1.1.gem
+$> cd ..
 $> bundle install
 ```
 
