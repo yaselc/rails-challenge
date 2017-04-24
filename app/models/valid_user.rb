@@ -1,0 +1,2 @@
+class ValidUser < ApplicationRecord
+end
