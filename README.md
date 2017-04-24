@@ -50,7 +50,7 @@ $> bin/rake
 
 ### WebService1 and WebService2 documentation
 
-You can check Swagger documentation for both webservice included in project. Also the source code to build a gem that serve as Client for this REST services
+You can check Swagger documentation for both webservice included in project. Also the source code to build a gem that serve as Client for this REST services can be download from this documentation page.
 
 * [WebService1](https://app.swaggerhub.com/apis/yaselc/WebService1/1.0.0) - Proxy REST service to verify user email
 * [WebService2](https://app.swaggerhub.com/apis/yaselc/WebService2/1.0.0) - Backend REST service to verify user email
