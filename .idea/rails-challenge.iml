@@ -121,6 +121,26 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="webservice1_client (v[path]) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/webservice1-client/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/webservice1-client/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="webservice2_client (v[path]) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/webservice2-client/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/webservice2-client/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.10.1, ruby-2.4.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v12.0.0, ruby-2.4.0-p0) [gem]" level="application" />
   </component>

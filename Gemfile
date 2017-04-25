@@ -32,6 +32,8 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'rack-cors'
+
 # gem WebService clients
 gem 'webservice2_client', '~> 0.1.1', :path => './webservice2-client'
 gem 'webservice1_client', '~> 0.1.1', :path => './webservice1-client'
