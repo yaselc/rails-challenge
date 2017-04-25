@@ -60,6 +60,10 @@ In another terminal, run tests
 $> bin/rake
 ```
 
+### Testing online
+* WebServices: [Try on PostMan](https://www.getpostman.com/collections/080d959c5456952c8221)
+* Heruko deploy [Go](https://stark-fortress-73403.herokuapp.com/)
+
 ### WebService1 and WebService2 documentation
 
 You can check Swagger documentation for both webservice included in project. Also the source code to build a gem that serve as Client for this REST services can be download from this documentation page.
@@ -69,8 +73,7 @@ You can check Swagger documentation for both webservice included in project. Als
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
-
+Check [documentation](https://devcenter.heroku.com/articles/getting-started-with-rails5) to deploy to Heruko
 ## Authors
 
 * **Yasel Couce** 
