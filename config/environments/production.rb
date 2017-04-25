@@ -83,4 +83,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.webservice2_url = 'https://stark-fortress-73403.herokuapp.com'
+
+  config.webservice1_url = 'https://stark-fortress-73403.herokuapp.com'
 end

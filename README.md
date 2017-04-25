@@ -36,17 +36,9 @@ $> bin/rake db:migrate
 $> bin/rake db:seed
 ```
 
-4. Build WebServices gems
+4. Install dependencies
 
 ```
-$> cd webservice1-client/
-$> gem build webservice1_client.gemspec
-$> gem install ./webservice1_client-0.1.1.gem
-$> cd ..
-$> cd webservice2-client/
-$> gem build webservice2_client.gemspec
-$> gem install ./webservice2_client-0.1.1.gem
-$> cd ..
 $> bundle install
 ```
 
