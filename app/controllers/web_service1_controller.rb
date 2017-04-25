@@ -21,7 +21,7 @@ class WebService1Controller < ApplicationController
       result = api_instance.ver_user(email, image, opts)
       render json: {"message" => result.message}
     rescue WebService2Client::ApiError => e
-      render json: {"message" => "No Autorizado"}, status: 401
+      render json: {"message" => "{e}"}, status: 401
     end
   end
 end
