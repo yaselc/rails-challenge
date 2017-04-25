@@ -40,7 +40,7 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
-  config.webservice2_url = 'http://localhost:3000'
+  config.webservice2_url = 'https://stark-fortress-73403.herokuapp.com'
 
-  config.webservice1_url = 'http://localhost:3000'
+  config.webservice1_url = 'https://stark-fortress-73403.herokuapp.com'
 end
